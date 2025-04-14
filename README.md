@@ -19,3 +19,9 @@ To further boost research value, VFS includes rich metadata, such as the IMO num
 | 1000045 |          |          | OKTANA        | Yacht     | Greece         | 1995          | 38.5   | 7.48 |
 | 1000069 | MRPW2    | 2.33E+08 | LADY BEATRICE | Yacht     | Isle of Man    | 1993          | 60     | 10   |
 
+## Terms of Use
+
+By accessing or using this dataset, you agree to the following terms:
+
+1. **Academic Use Only**: This dataset is strictly for academic research purposes. Commercial use is prohibited.
+
