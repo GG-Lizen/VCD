@@ -1,4 +1,4 @@
-# Dataset for WORM: Working and Long-Term Prompt for Few-Shot Ship Classification
+# Dataset for Working and Long-Term Prompt for Few-Shot Ship Classification
 
 This repository hosts a dataset used in our paper, **"WORM: Working and Long-Term Prompt for Few-Shot Ship Classification"**. The dataset will be made publicly available **upon the acceptance of the paper**. Please note that this dataset is intended **for academic research purposes only**.
 
