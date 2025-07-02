@@ -4,10 +4,10 @@ This repository hosts a dataset used in our paper, **"WORM: Working and Long-Ter
 
 ## Description
 
-VFS, a comprehensive, large-scale dataset with 18,000 diverse real-world images across 30 vessel categories, each category contains 600 images.
-A key advantage of VFS is its diverse external conditions, covering multiple viewpoints, weather, and lighting scenarios. This diversity helps mitigate model overfitting and enhances generalization.
-Moreover, VFS cover a wide range of complex scenarios, with vessels appearing against challenging backgrounds like docks, offshore structures, and port facilities.
-To further boost research value, VFS includes rich metadata, such as the IMO number, MMSI, vessel length, beam width, and year of build, making it an ideal benchmark for vessel recognition research.
+Vessels Classification Dataset (VCD), a comprehensive, large-scale dataset with 18,000 diverse real-world images across 30 vessel categories, each category contains 600 images.
+A key advantage of VCD is its diverse external conditions, covering multiple viewpoints, weather, and lighting scenarios. This diversity helps mitigate model overfitting and enhances generalization.
+Moreover, VCD cover a wide range of complex scenarios, with vessels appearing against challenging backgrounds like docks, offshore structures, and port facilities.
+To further boost research value, VCD includes rich metadata, such as the IMO number, MMSI, vessel length, beam width, and year of build, making it an ideal benchmark for vessel recognition research.
 ### Dataset partition
 
 #### Train (18)
