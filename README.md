@@ -46,7 +46,7 @@ To further boost research value, VCD includes rich metadata, such as the IMO num
 - WIG
 - Yacht
 
-![](VFS.png)
+![](dataset.png)
 ## Meta Data
 | imo     | callsign | mmsi     | vessel_name   | ship_type | flag           | year_of_build | length | beam |
 | ------- | -------- | -------- | ------------- | --------- | -------------- | ------------- | ------ | ---- |
