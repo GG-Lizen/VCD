@@ -1,16 +1,32 @@
-# Dataset for Working and Long-Term Prompt for Few-Shot Ship Classification
+# Dataset for Dual-Prompting and Class-Aware Token Selection for UAV-Based Few-Shot Ship Classification
 
-This repository hosts a dataset used in our paper, **"Dual-Prompting and Class-Aware Token Selection for Few-Shot Ship Classification"**. The dataset will be made publicly available **upon the acceptance of the paper**. Please note that this dataset is intended **for academic research purposes only**.
+This repository hosts a dataset used in our paper, **"Dual-Prompting and Class-Aware Token Selection for UAV-Based Few-Shot Ship Classification"**. The dataset will be made publicly available **upon the acceptance of the paper**. Please note that this dataset is intended **for academic research purposes only**.
 
-## Description
+## **Data Collection**  
 
-Vessels Classification Dataset (VCD), a comprehensive, large-scale dataset with 18,000 diverse real-world images across 30 vessel categories, each category contains 600 images.
-A key advantage of VCD is its diverse external conditions, covering multiple viewpoints, weather, and lighting scenarios. This diversity helps mitigate model overfitting and enhances generalization.
-Moreover, VCD cover a wide range of complex scenarios, with vessels appearing against challenging backgrounds like docks, offshore structures, and port facilities.
-To further boost research value, VCD includes rich metadata, such as the IMO number, MMSI, vessel length, beam width, and year of build, making it an ideal benchmark for vessel recognition research.
-### Dataset partition
+Vessel images were collected from public platforms such as Vesselfinder, captured via UAVs or from elevated viewpoints. After deduplication and removal of categories with fewer than 600 samples, 600 images were randomly selected for each of the remaining 30 categories, resulting in a balanced dataset of 18,000 images.
+
+## **Vessel Characteristics**  
+
+The 30 vessel classes are grouped into six superclasses according to their characteristic features (as shown in Table \ref{tab:types}).  
+
+- **Tankers** feature deck-mounted liquid tanks and pipelines extending from bow to stern.  
+- **Cargo vessels** have wide hulls and large cargo holds.  
+- **Special vessels** are equipped with cranes or drilling towers.  
+- **Fishing vessels** are small and fitted with fishing gear.  
+- **Passenger vessels** have streamlined hulls with multi-deck superstructures.  
+- **Military vessels** possess sharp hulls and decks with sensors and weapons.
+
+## **Comparison with Existing Datasets**  
+
+VCD surpasses existing maritime vessel datasets in both scale and granularity. It comprises 30 categories, compared to 6 in SeaShips, 9 in FSCD, and 15 in VAIS, with 600 high-quality images per class to ensure substantial intra-class variation. The dataset also captures diverse UAV viewpoints, lighting conditions, weather, and image resolutions (as shown in Figure \ref{fig:distr}), providing a comprehensive benchmark for evaluating model generalization in complex maritime environments. Moreover, VCD includes realistic and complex backgrounds, such as docks, offshore structures, and port facilities, further enhancing its suitability for training models robust to real-world scenarios and reducing overfitting.
+
+## Dataset partition
+
+Following standard practices in few-shot classification, the dataset is split into 18 training categories, 6 validation categories, and 6 test categories.
 
 #### Train (18)
+
 - Bitumen_Tanker
 - Bunkering_Tanker
 - Cement_Carrier
@@ -31,6 +47,7 @@ To further boost research value, VCD includes rich metadata, such as the IMO num
 - Ro-Ro_Cargo_Ship
 
 #### Val (6)
+
 - Bulk_Carrier
 - Drilling_Ship
 - Heavy_Load_Carrier
@@ -39,6 +56,7 @@ To further boost research value, VCD includes rich metadata, such as the IMO num
 - Vehicles_Carrier
 
 #### Test (6)
+
 - Fishing_Vessel
 - LNG_Tanker
 - Military_ops
@@ -47,13 +65,8 @@ To further boost research value, VCD includes rich metadata, such as the IMO num
 - Yacht
 
 ![](dataset.png)
-## Meta Data
-| imo     | callsign | mmsi     | vessel_name   | ship_type | flag           | year_of_build | length | beam |
-| ------- | -------- | -------- | ------------- | --------- | -------------- | ------------- | ------ | ---- |
-| 1000019 |          |          | LADY K II     | Yacht     | Panama         | 1961          | 57.6   | 8.8  |
-| 1000021 | ZCCB8    | 3.2E+08  | MONTKAJ       | Yacht     | Cayman Islands | 1995          | 78     | 13   |
-| 1000045 |          |          | OKTANA        | Yacht     | Greece         | 1995          | 38.5   | 7.48 |
-| 1000069 | MRPW2    | 2.33E+08 | LADY BEATRICE | Yacht     | Isle of Man    | 1993          | 60     | 10   |
+
+
 
 ## Terms of Use
 
