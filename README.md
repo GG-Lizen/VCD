@@ -10,6 +10,15 @@ Vessel images were collected from public platforms such as Vesselfinder, capture
 
 The 30 vessel classes are grouped into six superclasses according to their characteristic features (as shown in Table \ref{tab:types}).  
 
+| **Superclass**       | **Class**                                                    |
+| --------------------- | ------------------------------------------------------------ |
+| **Tanker**            | Bitumen Tanker<br>Bunkering Tanker<br>Chemical Oil Products Tanker<br>Crude Oil Tanker<br>LPG Tanker<br>Oil Products Tanker<br>LNG Tanker |
+| **Cargo-Carrier**     | Container Ship<br>General Cargo Ship<br>Refrigerated Cargo Ship<br>Bulk Carrier<br>Vehicles Carrier<br>Heavy Load Carrier<br>Livestock Carrier<br>Ro-Ro Cargo Ship<br>WIG |
+| **Special Vessels**   | Hopper Dredger<br>Offshore Tug Supply Ship<br>Offshore Support Vessel<br>Drilling Ship<br>Platform<br>Research Vessel |
+| **Fishing Vessels**   | Fish Factory Ship<br>Fishing Vessel                          |
+| **Passenger Vessels** | Passenger (Cruise) Ship<br>Passenger Ro-Ro Cargo Ship<br>HSC<br>Yacht |
+| **Military**          | Military ops                                                 |
+
 - **Tankers** feature deck-mounted liquid tanks and pipelines extending from bow to stern.  
 - **Cargo vessels** have wide hulls and large cargo holds.  
 - **Special vessels** are equipped with cranes or drilling towers.  
