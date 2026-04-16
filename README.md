@@ -82,18 +82,20 @@ Following standard practices in few-shot classification, the dataset is split in
 By accessing or using this dataset, you agree to the following terms:
 
 1. **Academic Use Only**: This dataset is strictly for academic research purposes. Commercial use is prohibited.
-2. Citation Requirement: Any publication or work that uses this dataset must clearly cite the following original research paper:
+2. **Citation Requirement**: Any publication or work that uses this dataset must clearly cite the following original research paper:
+   
    ```
-   @ARTICLE{11242160,
-  author={Guo, Lizhen and Huang, Guoheng and Huang, Hongru and Yuan, Xiaochen and Cheng, Lianglun and Li, Yan and Wang, Shuqiang and Pun, Chi-Man},
-  journal={IEEE Transactions on Consumer Electronics}, 
-  title={Dual-Prompting and Class-Aware Token Selection for UAV-Based Few-Shot Ship Classification}, 
-  year={2026},
-  volume={72},
-  number={1},
-  pages={912-924},
-  keywords={Visualization;Tuning;Quaternions;Overfitting;Discrete cosine transforms;Redundancy;Marine vehicles;Generators;Few shot learning;Transformers;Few-shot learning;prompt tuning;ship classification;contrastive learning;uncrewed aerial vehicle (UAV)},
-  doi={10.1109/TCE.2025.3631906}}
-
+  @ARTICLE{11242160,
+    author={Guo, Lizhen and Huang, Guoheng and Huang, Hongru and Yuan, Xiaochen and Cheng, Lianglun and Li, Yan and Wang, Shuqiang and Pun, Chi-Man},
+    journal={IEEE Transactions on Consumer Electronics}, 
+    title={Dual-Prompting and Class-Aware Token Selection for UAV-Based Few-Shot Ship Classification}, 
+    year={2026},
+    volume={72},
+    number={1},
+    pages={912-924},
+    keywords={Visualization;Tuning;Quaternions;Overfitting;Discrete cosine transforms;Redundancy;Marine vehicles;Generators;Few shot learning;Transformers;Few-shot learning;prompt tuning;ship classification;contrastive learning;uncrewed aerial vehicle (UAV)},
+     doi={10.1109/TCE.2025.3631906}
+     }
+   
    ```
 
